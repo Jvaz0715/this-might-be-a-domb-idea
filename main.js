@@ -32,4 +32,4 @@ const sixteenthItem = document.querySelector('li:not([class])');
 sixteenthItem.classList.add('item');
 sixteenthItem.setAttribute('id', 'item-16')
 
-console.log(sixteenthItem)
+sixteenthItem.innerHTML = "Won't get fooled again."
