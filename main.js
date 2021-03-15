@@ -17,3 +17,13 @@ thirdItem.innerHTML = "Hi!"
 const image = document.querySelector('img');
 
 image.src = "http://www.tioxic.com/wp-content/uploads/trex_4.jpg"
+
+image.height = 300;
+
+const newImage = document.createElement('img');
+
+newImage.src = 'https://images.unsplash.com/photo-1525877442103-5ddb2089b2bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+
+document.querySelector('body').appendChild(newImage);
+
+newImage.height = 300;
