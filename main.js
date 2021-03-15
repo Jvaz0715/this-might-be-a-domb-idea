@@ -27,3 +27,9 @@ newImage.src = 'https://images.unsplash.com/photo-1525877442103-5ddb2089b2bb?ixi
 document.querySelector('body').appendChild(newImage);
 
 newImage.height = 300;
+
+const sixteenthItem = document.querySelector('li:not([class])');
+sixteenthItem.classList.add('item');
+sixteenthItem.setAttribute('id', 'item-16')
+
+console.log(sixteenthItem)
